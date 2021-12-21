@@ -1,9 +1,12 @@
 package pl.akademia108;
-import pl.akademia108.java.VariablesDeclarationInitialization;
 public class Main {
 
     public static void main(String[] args) {
-        VariablesDeclarationInitialization
+        float kurs = 4.11f;
+        float mnozonyKurs = 100 * kurs;
+
+        System.out.println(kurs);
+        System.out.println(mnozonyKurs);
 
 
 
